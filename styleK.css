@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --primary-col: black;
+    --text-col: white;
+}
+
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+
+
+body {
+    
+background-color: var(--primary-col);
+color: var(--text-col);
+line-height: 1.6;
+}
+
+
+ul {
+list-style-type: none;
+text-decoration: none;
+}
+
+a {
+text-decoration: none;
+color: black;
+padding-left: 40px;
+font-size: 27px;
+font-family: 'Inter';
+}
+
+h1 {
+left: 345.99px;
+top: 337.04px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 34.8438px;
+line-height: 95.52%;
+text-align: center;
+color: #FFFFFF;
+}
+
+.middle {
+display: flex;
+text-align: center;
+align-items: center;
+height: 300px;
+left: 345.99px;
+top: 337.04px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 34.8438px;
+line-height: 95.52%;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+p {
+margin: 10px 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26.8575px;
+line-height: 95.52%;
+padding-top: 50px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+img {
+    width: 100%;
+}
+
+/*Used on navbar*/
+
+.navbar {
+    /*background-color: var(--primary-col);*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22.1541px;
+line-height: 27px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a {
+    color: var(--text-col);
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover{
+    border-bottom: 2px var(--text-col) solid;
+}
+
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.showcase{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.middle{
+    display: flex;
+}
+/*Utilities (Used everywhere)*/
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 40px 40px;
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    
+}
+
+.grid {
+    display: grid;
+    margin-top: 50px;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    gap: 20px;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pictures {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+
+}
+
+.picuters img {
+    width: 100px;
+} 
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    position: absolute;
+    width: auto;
+    font-weight: 100;
+    font-size: 31.3802px;
+    line-height: 95.52%;
+    text-align: center;
+}
+
+.faces {
+    padding-top: 200px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+} 
+
+.faces img {
+    display: flex;
+
+    
+}
+
+.boxes .grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-col);
+    margin: auto;
+    width: fit-content;
+    height: auto;
+    gap: 0 0 ;
+    padding: 0 0 0 0;
+    
+
+}
+
+.box1 {
+    background-color: #F2F2F2;
+    color: var(--primary-col);
+    width: auto;
+    height: fit-content;
+    text-decoration: none;
+    list-style-type: none;
+    width: 558.51px;
+    height: 516.95px;
+    left: 168.86px;
+    top: 4310.06px;
+}
+
+h8 {
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 55.8412px;
+    padding-left: 40px;
+}
+
+.box2 {
+    background-color: #E2E2E2;
+    color: var(--primary-col);
+    list-style-type: none;
+    width: 558.51px;
+    height: 516.95px;
+    top: 4310.06px;
+}
+
+.box3{
+    background-color: #C0C0C0;
+    color: var(--primary-col);
+    text-decoration: none;
+    list-style-type: none;
+    width: 558.51px;
+    height: 516.95px;
+    top: 4310.06px;
+}
+
+.box4 {
+    background-color: #B4B4B4;
+    color: var(--primary-col);
+    text-decoration: none;
+    list-style-type: none;
+    width: 558.51px;
+    height: 516.95px;   
+    top: 4310.06px;
+}
+
+.contact .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 60px);
+    text-align: center;
+    gap: 0;
+    height: 100%;
+    margin-top: 0;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #FFFFFF;
+    height: 64.09;
+    color: var(--primary-col);
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    
+    
+}
+
+.footer .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}

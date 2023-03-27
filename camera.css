@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --primary-col: black;
+    --text-col: white;
+}
+
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+
+
+body {
+height: auto;    
+background-color: var(--primary-col);
+color: var(--text-col);
+line-height: 1.6;
+}
+
+
+
+
+a {
+text-decoration: none;
+color: black;
+padding-left: 40px;
+font-size: 27px;
+font-family: 'Inter';
+}
+
+h1 {
+left: 345.99px;
+top: 337.04px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 34.8438px;
+line-height: 95.52%;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+
+
+p {
+margin: 10px 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26.8575px;
+line-height: 95.52%;
+padding-top: 50px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+img {
+    width: 100%;
+}
+
+/*Used on navbar*/
+
+.navbar {
+    /*background-color: var(--primary-col);*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22.1541px;
+line-height: 27px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a {
+    color: var(--text-col);
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover{
+    border-bottom: 2px var(--text-col) solid;
+}
+
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+/*Utilities (Used everywhere)*/
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 40px 40px;
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    
+}
+
+.grid {
+    display: grid;
+    margin-top: 50px;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    gap: 20px;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pictures {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+
+}
+
+.picuters img {
+    width: 100px;
+} 
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    position: absolute;
+    width: auto;
+    font-weight: 100;
+    font-size: 31.3802px;
+    line-height: 95.52%;
+    text-align: center;
+}
+
+.faces {
+    padding-top: 200px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+} 
+
+.faces img {
+    display: flex;
+
+    
+}
+
+
+
+/* Footer */
+
+.footer {
+    margin-top: 200px;
+    background-color: white;
+    color: var(--primary-col);
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    bottom:  0px;
+    width: 100%;
+    
+    
+    
+}
+
+.footer .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+
+.camera .grid {
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr 2fr;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Inter' sans-serif;
+    font-weight: bold; 
+    
+}
+
+.picture .flex {
+    display: flex;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.camerapic {
+    width: 1336.835693359375px;
+    left: 51.58203125px;
+    top: 603.1658935546875px;
+    border-radius: 0px;
+    
+
+}
+
+.text p {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 28.66px;
+    text-align: center;
+    font-family: 'Inter' sans-serif;
+    margin-left: 212px;
+    margin-right: 212px;
+    
+    
+
+}
+
+.heading2 {
+    font-size: 80.47px  ;
+  }
+
+.CustomerReview {
+    align-items: center;
+    display: flex;
+   
+}
