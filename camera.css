@@ -41,7 +41,7 @@ color: #FFFFFF;
 }
 
 img {
-    width: 100%;
+    width: 100px;
 }
 
 /*Used on navbar*/
@@ -244,5 +244,97 @@ padding-bottom: 50px;
 .footer .grid > *:first-child {
     grid-column: 1 / span 2;
     text-align: left;
+}
+/*  
+.items {
+    display: grid;
+    height: 300px;
+}
+
+.items-grid {
+    height: 700px;
+}
+  
+  .amazon {
+    height: 100px;
+  }
+  
+  .amazontext {
+    height: 100px;
+    width: 40%;
+  }
+  
+  .pardel {
+    height: 200px;
+  }
+
+  .pardeltext {
+    height: 100px;
+  }
+ */
+ #cam2text {
+    display: flex;
+    justify-content: center;
+}
+
+#cam1text {
+    display: flex;
+    justify-content: end;
+}
+.extras {
+    display: grid;
+    grid-template: auto / auto auto;
+    justify-content: center;
+    margin-top: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.extra-1-text {
+    width: 438px;
+    height: 377px;
+    text-align: end;
+    margin-right: 0;
+    font-size: 30px;
+    line-height: 29px;
+    font-weight: 300;
+    margin-bottom: 250px;
+}
+
+#cam2text {
+    display: flex;
+    justify-content: center;
+}
+
+#cam1text {
+    display: flex;
+    justify-content: end;
+}
+
+.extra-2-text {
+    width: 438px;
+    font-size: 30px;
+    line-height: 29px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.ext-1-pic {
+    margin-top: 30px;
+    margin-bottom: 123px;
+}
+
+.ext-2-pic {
+    margin-left: 60px;
+    margin-right: auto;
+}
+.column {
+    position: relative;
+}
+
+.above {
+    margin-top: -450px;
+    margin-left: 60px;
 }
 
