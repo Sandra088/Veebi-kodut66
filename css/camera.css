@@ -2,7 +2,7 @@
 
 :root {
     --primary-col: black;
-    --text-col: white;
+    --text-col: rgb(255, 255, 255);
 }
 
 * {
@@ -38,10 +38,6 @@ font-size: 34.8438px;
 line-height: 95.52%;
 text-align: center;
 color: #FFFFFF;
-}
-
-img {
-    width: 100%;
 }
 
 /*Used on navbar*/
@@ -100,9 +96,6 @@ padding-bottom: 50px;
 
 }
 
-.picuters img {
-    width: 100px;
-} 
 
 .text {
     font-family: 'Inter';
@@ -130,7 +123,8 @@ padding-bottom: 50px;
     display: flex;
 }
 
-/* Pictures */
+/* Project picture */
+
 .camera .grid {
     grid-template-columns: 2fr;
     grid-template-rows: 2fr 2fr;
@@ -145,10 +139,10 @@ padding-bottom: 50px;
     width: auto;
     align-items: center;
     justify-content: center;
+
 }
 
 .camerapic {
-    width: 1336.835693359375px;
     left: 51.58203125px;
     top: 603.1658935546875px;
     border-radius: 0px;
@@ -169,12 +163,67 @@ padding-bottom: 50px;
     bottom: 100px;
 }
 
+
+/* Image with text */
+
+.extras .grid {
+    display: grid;
+    margin-top: 150px;
+    grid-template: auto / auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ext-1-pic {
+    margin-top: 30px;
+    margin-bottom: 123px;
+}
+
+#cam2text {
+    display: flex;
+    justify-content: center;
+}
+
+.extra-2-text {
+    width: 438px;
+    font-size: 30px;
+    line-height: 29px;
+    font-weight: 300;
+    text-align: left;
+}
+
+#cam1text {
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+}
+
+.extra-1-text {
+    width: 438px;
+    height: 377px;
+    text-align: end;
+    margin-right: 0;
+    font-size: 30px;
+    line-height: 29px;
+    font-weight: 300;
+    margin-bottom: 250px;
+}
+
+.ext-2-pic {
+    margin-left: 60px;
+    margin-right: auto;
+}
+
+/* Review */
+
 .heading2 {
     font-size: 80.47px  ;
   }
 
 .CustomerReview {
-    padding-top: 600px;
+    padding-top: 300px;
     align-items: center;
     display: flex;
     position: relative;
@@ -183,7 +232,7 @@ padding-bottom: 50px;
 .Review .grid {
     display: grid;
     grid-template-columns: 0.7fr 1fr;
-    grid-template-rows: 250px 200px 200px;
+    grid-template-rows: repeat(3, auto);
     margin-inline: 10px;
 }
 
@@ -194,6 +243,7 @@ padding-bottom: 50px;
 .Reviewpic {
     height: 409.94px;
     width: 323.42px;
+    justify-content: end;
 }
 
 .reviewtexthead {
@@ -211,6 +261,7 @@ padding-bottom: 50px;
     font-weight: 0px;
     line-height: 29px;
     text-align: left;
+    overflow: visible;
 }
 
 .CEO {
@@ -220,6 +271,8 @@ padding-bottom: 50px;
     font-weight: 300;
     letter-spacing: 0em;
     text-align: left;
+    overflow: auto;
+    overflow: visible;
 }
 
 /* Footer */
@@ -245,4 +298,3 @@ padding-bottom: 50px;
     grid-column: 1 / span 2;
     text-align: left;
 }
-
