@@ -43,14 +43,14 @@ color: #FFFFFF;
 /*Used on navbar*/
 
 .navbar {
-    /*background-color: var(--primary-col);*/
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 22.1541px;
-line-height: 27px;
-padding-top: 50px;
-padding-bottom: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.1541px;
+    line-height: 27px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    list-style-type: none;
 }
 
 .navbar a {
@@ -81,8 +81,6 @@ padding-bottom: 50px;
 .grid {
     display: grid;
     margin-top: 50px;
-    /*justify-content: center;*/
-    /*align-items: center;*/
     gap: 20px;
     height: 100%;
     grid-template-columns: repeat(2, 1fr);
